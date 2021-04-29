@@ -1,0 +1,138 @@
+/*** reset ***/
+html, body, div, span, h1, h2, h3, p, a, img, strong, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  
+  img {
+    border: 0;
+    max-height: 400px
+  }
+  
+  /*** universal ***/
+  
+  a {
+    color: blue;
+    font-weight: bold;
+    line-height: 1.3em
+  }
+  
+  a:hover {
+    background: blue;
+    color: white
+  }
+  
+  p {
+    line-height: 1.3em
+  }
+  
+  ul, ol {
+    margin: 0 40px 0 20px;
+    list-style-type: none
+  }
+  
+  ul li {
+    margin: 0 0 0.8em;
+    line-height: 1.3em
+  }
+  
+  h1 {
+    margin: 10px auto;
+    max-width: 1000px;
+    font-size: 2.4em;
+  }
+  
+  h2 {
+    color: black;
+    font-family: Din, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: .025em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 150px;
+  }
+  
+  h3 {
+    margin: 20px 40px 10px 20px;
+    padding: 20px 0 0 0;
+    border-top: 2px solid black;
+    font-size: 1.6em
+  }
+  
+  
+  /** main **/
+  
+  body {
+    font-size: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+  }
+  
+  #header {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid black
+  }
+  
+  #header h1#page-name {
+    margin: 0;
+    font-size: 1px;
+    text-indent: -9999px
+  }
+  
+  #header h2 {
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 10px 0 0 0;
+    border-top: 2px solid black;
+    font-size: 5em
+  }
+  
+  #header p {
+    margin: 0 auto 10px auto;
+    padding: 20px 0 ;
+    max-width: 1000px;
+    text-align: left
+  }
+  
+  #header p img {
+    float: left;
+    margin: 0 8px 8px 0;
+    max-width: 200px
+  }
+  
+  #header span {
+    max-width: 1000px;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    display: block;
+    border-top: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    clear: both
+  }
+  
+  #left-column, #middle-column, #right-column {float: left; margin: 20px 0; }
+  #left-column {width: 33%}
+  #middle-column {width: 33%}
+  #right-column {width: 33%}
+  
+  #footer {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
