@@ -136,3 +136,10 @@ html, body, div, span, h1, h2, h3, p, a, img, strong, ol, ul, li {
     text-align: center;
     font-size: 0.9em;
   }
+
+
+  /* 
+  Flex
+  Center column - center
+  Right column - flex end
+  */
